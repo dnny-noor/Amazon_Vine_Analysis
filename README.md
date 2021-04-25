@@ -4,10 +4,13 @@
 Amazon Vine program allows manufacturers and publishers to receive reviews for their products by providing Amazon Vine members their products in exchange for a review. An analysis was done to determine any bias in the program for positive reviews. AWS was utilized for hosting the data and Pyspark performed the extract and transformation of data.  
   
 ![Resources/customers_table.PNG](Resources/customers_table.PNG)  
+  
 ![Resources/products_table.PNG](Resources/products_table.PNG)  
+  
 ![Resources/review_id_table.PNG](Resources/review_id_table.PNG)  
+  
 ![Resources/vine_table.PNG](Resources/vine_table.PNG)  
-
+  
 ## Results
 The data was extracted from the automotive dataset into DataFrames and then filtered by votes of 20 or more and where helpful votes were at least 50 percent of the total votes. This would provide a sample of the most read reviews by shoppers to perform our analysis on.  
   
